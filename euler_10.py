@@ -9,7 +9,6 @@ def prime(n):
 n=2
 sum=0
 while n<=2000000:
-	x=prime(n)
-	if x==1:
+	if prime(n):
 		sum=sum+n
 	n=n+1
