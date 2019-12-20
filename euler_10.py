@@ -1,6 +1,5 @@
 def prime(n):
 	i=2
-	c=0
 	while i<=n//2:
 		if n%i==0:
 			return 0
@@ -10,7 +9,6 @@ def prime(n):
 n=2
 sum=0
 while n<=2000000:
-	print(prime(n))
 	x=prime(n)
 	if x==1:
 		sum=sum+n
